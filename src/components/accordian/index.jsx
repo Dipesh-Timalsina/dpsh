@@ -133,6 +133,7 @@ export default function Accordian() {
         <label htmlFor="toggle" className="slider" />
       </div>
 
+      <div> all</div>
       <div className="acc-wrapper">
         <div className="accordian">
           {data && data.length > 0 ? (
