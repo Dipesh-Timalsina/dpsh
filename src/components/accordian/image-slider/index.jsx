@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import "./styles.css";
+// import { BsIconName } from "react-icons/bs";
+// import { FaIconName } from "react-icons/fa";
+
 
 export default function ImageSlider({ url, limit = 5, page = 1 }) {
   const [images, setImages] = useState([]);
